@@ -1,0 +1,128 @@
+/*Body Styling */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; 
+    min-height: 100vh;   
+    overflow: hidden;     
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;       
+    gap: 20px;                 
+}
+
+/* Logo Section */
+/* removed */
+
+/* Wrapper for Login */
+.login-wrapper {
+    margin: 35px 0px 35px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    
+}
+
+/* Login Container */
+.login-container {
+    width: 100%;
+    height: 5%;
+    padding: 20px;
+    background: #ebebeb;        /* White background */
+    border-radius: 8px;      /* Rounded corners */
+    box-shadow: 2 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Form Styling */
+form {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Spacing between form elements */
+}
+
+form h2 {
+    margin-bottom: 10px;
+}
+
+form p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+form label {
+    text-align: left;
+    font-size: 12px;
+    font-weight: bold;
+    /* margin-top: 5px; */
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    /* margin-top: 5px; */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+form button {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    background-color: #7289da;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+
+form button:hover {
+    background-color: #5b6eae;
+}
+
+form .forgot-password {
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: right;
+    cursor: pointer;
+    color: #7289da;
+}
+
+form a {
+    color: #7289da;
+    text-decoration: none;
+}
+
+form a:hover {
+    text-decoration: underline;
+}
+
+
+.logIn-With {
+    /* margin: 10px; */
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+.logIn-With i {
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.logIn-With i:hover {
+    transition: all 1s ease-in-out;
+    transform: scale(1.5);
+}

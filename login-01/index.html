@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login to Superior Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Main Wrapper for Login Container -->
+    <div class="login-wrapper">
+        <!-- Login Section with Form -->
+        <div class="login-container">
+            <form action="/login" method="POST">
+                <h2>Welcome back!</h2>
+                <p>We're so excited to see you again!</p>
+
+                <!-- Email/Username Input -->
+                <label for="email">EMAIL OR PHONE</label>
+                <input type="text" name="email" id="email" required>
+
+                <!-- Password Input -->
+                <label for="password">PASSWORD</label>
+                <input type="password" name="password" id="password" required>
+
+                <p class="forgot-password">Forgot your password?</p>
+
+                <!-- Login Button -->
+                <button type="submit">Log In</button>
+
+                <!-- logIn other -->
+                <span class="logIn-With">
+                    OR LogIn with :
+                    <a href="#"><i class="fa-brands fa-square-google-plus"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+                </span>
+
+                <p>Need an account? <a href="#">Register</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
